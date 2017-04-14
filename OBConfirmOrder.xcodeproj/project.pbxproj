@@ -15,6 +15,9 @@
 		2BDC88841EA0CCC4009C1592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDC88821EA0CCC4009C1592 /* LaunchScreen.storyboard */; };
 		2BDC888F1EA0CCC4009C1592 /* OBConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC888E1EA0CCC4009C1592 /* OBConfirmOrderTests.m */; };
 		2BDC889A1EA0CCC4009C1592 /* OBConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC88991EA0CCC4009C1592 /* OBConfirmOrderUITests.m */; };
+		2BDC88AA1EA0CE54009C1592 /* OBConfirmOrderProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC88A91EA0CE54009C1592 /* OBConfirmOrderProvide.m */; };
+		2BDC88AD1EA0CE62009C1592 /* OBConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC88AC1EA0CE62009C1592 /* OBConfirmOrderViewController.m */; };
+		362D152445218156AF701076 /* libPods-OBConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3487E05164DCEC615E1C870 /* libPods-OBConfirmOrder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08588EE3E52D27B821DACE75 /* Pods-OBConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-OBConfirmOrder/Pods-OBConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
 		2BDC88711EA0CCC4009C1592 /* OBConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC88751EA0CCC4009C1592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BDC88771EA0CCC4009C1592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		2BDC88951EA0CCC4009C1592 /* OBConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDC88991EA0CCC4009C1592 /* OBConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBConfirmOrderUITests.m; sourceTree = "<group>"; };
 		2BDC889B1EA0CCC4009C1592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDC88A81EA0CE54009C1592 /* OBConfirmOrderProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBConfirmOrderProvide.h; sourceTree = "<group>"; };
+		2BDC88A91EA0CE54009C1592 /* OBConfirmOrderProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBConfirmOrderProvide.m; sourceTree = "<group>"; };
+		2BDC88AB1EA0CE62009C1592 /* OBConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBConfirmOrderViewController.h; sourceTree = "<group>"; };
+		2BDC88AC1EA0CE62009C1592 /* OBConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBConfirmOrderViewController.m; sourceTree = "<group>"; };
+		F3487E05164DCEC615E1C870 /* libPods-OBConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OBConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B7F129CE4B798BCE79C838 /* Pods-OBConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OBConfirmOrder/Pods-OBConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362D152445218156AF701076 /* libPods-OBConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B43E4E06F885F47AC674D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3B7F129CE4B798BCE79C838 /* Pods-OBConfirmOrder.debug.xcconfig */,
+				08588EE3E52D27B821DACE75 /* Pods-OBConfirmOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2BDC88681EA0CCC4009C1592 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				2BDC888D1EA0CCC4009C1592 /* OBConfirmOrderTests */,
 				2BDC88981EA0CCC4009C1592 /* OBConfirmOrderUITests */,
 				2BDC88721EA0CCC4009C1592 /* Products */,
+				2B43E4E06F885F47AC674D8C /* Pods */,
+				3FAC1FD0B65A417EBC144BB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +123,7 @@
 		2BDC88731EA0CCC4009C1592 /* OBConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				2BDC88A71EA0CCD4009C1592 /* OBConfirmOrder */,
 				2BDC88771EA0CCC4009C1592 /* AppDelegate.h */,
 				2BDC88781EA0CCC4009C1592 /* AppDelegate.m */,
 				2BDC887A1EA0CCC4009C1592 /* ViewController.h */,
@@ -140,6 +163,25 @@
 			path = OBConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
+		2BDC88A71EA0CCD4009C1592 /* OBConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2BDC88A81EA0CE54009C1592 /* OBConfirmOrderProvide.h */,
+				2BDC88A91EA0CE54009C1592 /* OBConfirmOrderProvide.m */,
+				2BDC88AB1EA0CE62009C1592 /* OBConfirmOrderViewController.h */,
+				2BDC88AC1EA0CE62009C1592 /* OBConfirmOrderViewController.m */,
+			);
+			path = OBConfirmOrder;
+			sourceTree = "<group>";
+		};
+		3FAC1FD0B65A417EBC144BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3487E05164DCEC615E1C870 /* libPods-OBConfirmOrder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDC889E1EA0CCC4009C1592 /* Build configuration list for PBXNativeTarget "OBConfirmOrder" */;
 			buildPhases = (
+				1290189B1F68C70E13FC090C /* [CP] Check Pods Manifest.lock */,
 				2BDC886D1EA0CCC4009C1592 /* Sources */,
 				2BDC886E1EA0CCC4009C1592 /* Frameworks */,
 				2BDC886F1EA0CCC4009C1592 /* Resources */,
+				BB51A2B4F861DA7C2C0438FC /* [CP] Embed Pods Frameworks */,
+				A0DE7BD031D09F046651255A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1290189B1F68C70E13FC090C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DE7BD031D09F046651255A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBConfirmOrder/Pods-OBConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB51A2B4F861DA7C2C0438FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OBConfirmOrder/Pods-OBConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BDC886D1EA0CCC4009C1592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +371,9 @@
 			files = (
 				2BDC887C1EA0CCC4009C1592 /* ViewController.m in Sources */,
 				2BDC88791EA0CCC4009C1592 /* AppDelegate.m in Sources */,
+				2BDC88AA1EA0CE54009C1592 /* OBConfirmOrderProvide.m in Sources */,
 				2BDC88761EA0CCC4009C1592 /* main.m in Sources */,
+				2BDC88AD1EA0CE62009C1592 /* OBConfirmOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +520,7 @@
 		};
 		2BDC889F1EA0CCC4009C1592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B7F129CE4B798BCE79C838 /* Pods-OBConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -437,6 +533,7 @@
 		};
 		2BDC88A01EA0CCC4009C1592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08588EE3E52D27B821DACE75 /* Pods-OBConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
@@ -516,6 +613,7 @@
 				2BDC88A01EA0CCC4009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDC88A11EA0CCC4009C1592 /* Build configuration list for PBXNativeTarget "OBConfirmOrderTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +622,7 @@
 				2BDC88A31EA0CCC4009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDC88A41EA0CCC4009C1592 /* Build configuration list for PBXNativeTarget "OBConfirmOrderUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +631,7 @@
 				2BDC88A61EA0CCC4009C1592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
